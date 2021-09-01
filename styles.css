@@ -1,0 +1,11 @@
+.Home{
+display:flex;
+justify-content:center;
+align-items: flex-end;
+
+}
+#image{
+ position: absolute;
+ top: 100px;
+
+}

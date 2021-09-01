@@ -6,30 +6,59 @@ align-items: flex-end;
 }
 #image{
  position: absolute;
- top: 100px;
-
+ top: 190px;
 }
 
 input{
 position: absolute;
-top: 198px;    
+padding: 5px 8px 0 16px;
+padding-left: 14px;
+top: 290px;    
 height: 34px;
-width: 50%;
+width: 30%;
 border-radius: 24px;
 background: #fff;
 border:solid 1px #dfE1e5
+}
 
+input:hover{
+box-shadow: 0px 0px 5px #8888
+}
+
+input:focus{
+outline:none;
 }
 
 button{
 position: relative;
+text-align: center;
+padding: 0 16px;
+margin: 11px 4px;
+height: 36px;
+line-height: 27px;
+min-width: 54px;
+cursor: pointer;
 border-radius: 4px;
-top: 260px; 
+border: 1px solid #f8f9fa;
+color: #3c403c;
+border-color: #f8f9fa;
+background-color: #f8f9fa;
+top: 336px; 
 right: 10px;  
-font-family:Arial
+font-family:Arial, Helvetica, sans-serif;
+font-size: 14px;
 }
 
 
 #button_search{
 margin-right: 35px;    
+}
+
+button:hover{
+box-shadow: 0 1px 1px rgb(0 0 0/ 10%);
+text-align:center;
+background-color: #f8f9fa;
+border: 1px solid #dadce0;
+color: #202124;
+
 }

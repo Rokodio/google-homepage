@@ -6,7 +6,8 @@ align-items: flex-end;
 }
 #image{
  position: absolute;
- top: 190px;
+ top: 110px;
+ height: 190px;
 }
 
 input{
